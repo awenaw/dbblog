@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-header">
-    <section-title :mainTitle="'存档时光'" :subTitle="'Articles'">
+    <section-title :mainTitle="'时光轴'" :subTitle="'Articles'">
       <!--<title-menu-timeline slot="menu"></title-menu-timeline>-->
     </section-title>
   </div>

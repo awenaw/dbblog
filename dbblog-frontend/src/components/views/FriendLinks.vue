@@ -1,19 +1,20 @@
 <template>
-  <div class="friend-links">
-    <panel :title="'友情链接'">
-      <ul class="link-list" slot="content">
-        <li v-for="link in linkList" :key="link.id">
-          <a :href="link.url" target="_blank">
-            <img :src="link.avatar" alt="">
-            <div class="right">
-              <p class="title">{{link.title}}</p>
-              <p class="link">{{link.url}}</p>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </panel>
-  </div>
+  <div></div>
+<!--    <div class="friend-links">-->
+<!--      <panel :title="'友情链接'">-->
+<!--        <ul class="link-list" slot="content">-->
+<!--          <li v-for="link in linkList" :key="link.id">-->
+<!--            <a :href="link.url" target="_blank">-->
+<!--              <img :src="link.avatar" alt="">-->
+<!--              <div class="right">-->
+<!--                <p class="title">{{link.title}}</p>-->
+<!--                <p class="link">{{link.url}}</p>-->
+<!--              </div>-->
+<!--            </a>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </panel>-->
+<!--    </div>-->
 </template>
 
 <script type="text/ecmascript-6">

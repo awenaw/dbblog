@@ -1,12 +1,12 @@
 <template>
   <div class="common-footer">
-    <p class="copyright">
-      <a href="http://www.miibeian.gov.cn/" target="_blank">{{ siteInfo.icp }}</a>
-      <span>|</span>
-      {{ siteInfo.copyright }}
-      <span>|</span>
-      <span v-html="siteInfo.copyright_desc"></span>
-    </p>
+<!--    <p class="copyright">-->
+<!--      <a href="http://www.miibeian.gov.cn/" target="_blank">{{ siteInfo.icp }}</a>-->
+<!--      <span>|</span>-->
+<!--      {{ siteInfo.copyright }}-->
+<!--      <span>|</span>-->
+<!--      <span v-html="siteInfo.copyright_desc"></span>-->
+<!--    </p>-->
   </div>
 </template>
 

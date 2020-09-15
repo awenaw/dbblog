@@ -38,7 +38,7 @@
               </template>
             </el-table-column>
           </el-table>
-          <el-button slot="reference" @click="recommendListShow = true;  listRecommend()" >请选择推荐文章</el-button>
+          <el-button slot="reference" @click=" listRecommend()" >请选择推荐文章</el-button>
         </el-popover>
       </el-form-item>
       <el-form-item label="推荐文章" >
@@ -132,6 +132,7 @@ export default {
       }).then(({data}) => {
         if (data && data.code === 200) {
           this.recommendList = data.recommendList
+          this.recommendListShow = true
         }
       })
     },
